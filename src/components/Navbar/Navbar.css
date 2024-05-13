@@ -1,0 +1,25 @@
+.navbar{
+    background: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.gender-categories-list{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.gender-categories-list li a {
+    color: inherit; 
+}
